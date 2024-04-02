@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html  {
+  font-family: "Kanit", sans-serif;
+}
+
+nav {
+  background-color: white;
+  height : 72px;
+  padding: 8px 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-left > img {
+  height: 32px;
+  padding-top: 3px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  margin: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  
+}
+
+.nav-right {
+  display: inline-block;
+}
+
+.nav-right-item {
+  padding-left: 16px;
+  text-transform: uppercase;
+}
+
+.main-top {
+  background-color: whitesmoke;
+  min-height: 184px;
+  padding-inline: 84px;
+}
+
+.main-top h1 {
+  padding-top: 130px;
+}
+
+.main-bottom {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  padding-inline: 84px;
+  height: calc(100vh - 256px);
+}
+
+.left-zone {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: center;
+  padding: 16px 16px 16px 0px;
+  flex-grow: 1;
+  margin-right: 32px;
+
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 32px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.card.fa {
+padding: 10%;
+margin-bottom: 0;
+border: none;
+}
+
+.card.border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+  border-radius: 50%;
+}
+
+.card.box {
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 200px;
+  height: 200px;
+  flex-grow: 1;
+  margin: 32px 32px 32px 0px;
+  background: linear-gradient(0deg, rgb(65, 125, 198) 0%, rgb(126, 186, 248) 100%);
+  padding: 36px;
+}
+
+.card.box.nd {
+  background: linear-gradient(0deg, rgb(228, 120, 81) 0%, rgb(249, 197, 114) 100%);
+}
+
+.fa-regular.fa-file-lines {
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: #417dc6;
+
+}
+.fa-regular.fa-file-lines {
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: orange;
+}
+
+.card.box h5 {
+  margin: 8px 0;
+}
+
+.card.detail {
+  flex-direction: column;
+  flex-grow: 1;
+  border: none;
+  align-items: flex-start;
+}
+
+.my-cart-select {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+div .fa-solid.fa-circle {
+  color: gray;
+}
+
+.fa-solid.fa-circle:first-child {
+  color: cadetblue;
+}
+
+.fa-solid.fa-circle.nd {
+  color: cadetblue;
+}
+
+.right-zone {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 25px;
+  height: 70%;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(68,68,68);
+  margin-top: 20px;
+}
+
+.subtotal p:first-child {
+  color: rgb(190, 190, 190);
+}
+
+
+.promotion-code {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(217,217,217);
+  align-items: center;
+}
+
+.fa-solid.fa-tags {
+  flex-basis: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cadetblue;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  height: 40px;
+  flex: 2 1 0%;
+  padding: 12px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 12px;
+  border: 1px solid rgb(198, 198, 198);
+  font-size: 14px;
+  width: 90%;
+}
+
+button.btn-apply {
+  flex: 1 1 0%;
+  background-color: rgb(246, 246, 246);
+  border-radius: 10px;
+  border: 1px solid cadetblue;
+  font-size: 16px;
+  height: 40px;
+  color: cadetblue;
+}
+
+.total-payment {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0px;
+}
+
+.login-checkout {
+  height: 40px;
+  width: 100%;
+  background-color: cadetblue;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
